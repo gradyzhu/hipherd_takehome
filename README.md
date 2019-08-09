@@ -1,10 +1,12 @@
 # To-Do List
 
+## [Live Demo](https://sodot-backwards.herokuapp.com)
+
 ### Technologies
 
-React.js
-Rails v5.2.3
-SQLite3
+* React.js
+* Rails v5.2.3
+* PostgreSQL
 
 ### Features
 
