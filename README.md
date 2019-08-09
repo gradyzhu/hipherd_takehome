@@ -1,11 +1,5 @@
 # To-Do List
 
-### Start Server
-
-`rails server`
-
-Go to `http://localhost:3000/`
-
 ### Technologies
 
 React.js
