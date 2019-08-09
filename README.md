@@ -1,25 +1,21 @@
-# README
+# To-Do List
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Start Server
 
-Things you may want to cover:
+`rails server`
 
-* Ruby version
+Go to `http://localhost:3000/`
 
-* System dependencies
+### Technologies
 
-* Configuration
+React.js
+Rails v5.2.3
+SQLite3
 
-* Database creation
+### Features
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# hipherd_takehome
+* Create TODO
+* Delete TODO
+* Update TODO
+* All / Complete / Incomplete TODO Filters
+* Delete all Completed Todo

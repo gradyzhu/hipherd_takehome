@@ -9,9 +9,8 @@ const App = props => {
 
   return (
     <div className="app">
-      <CreateTodosForm
-        createTodo={createTodo}
-      />
+      <h1>Todo List</h1>
+      <CreateTodosForm createTodo={createTodo} />
       <TodosIndex
         fetchTodos={fetchTodos}
         updateTodo={updateTodo}
