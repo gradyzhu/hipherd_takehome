@@ -37,7 +37,7 @@ export const fetchTodos = () => dispatch => {
 export const removeTodo = id => dispatch => {
   return (
     ApiUtils.deleteTodo(id)
-    .then(todo => dispatch(removeTodo(todo)))
+    .then(todo => dispatch(deleteTodo(todo)))
   );
 };
 

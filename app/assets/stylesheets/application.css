@@ -13,3 +13,160 @@
  *= require_tree .
  *= require_self
  */
+
+ul, input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  overflow: auto;
+  height: 400px;
+  width: 540px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  padding: 8px 10px;
+  background-color: white;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  height: 50px;
+  padding-left: 14px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: rgb(182, 182, 182);
+}
+
+button {
+  border: none;
+  width: auto;
+  height: 50px;
+  font-size: 20px;
+  color: rgb(184, 184, 184);
+  outline: none;
+}
+
+button:active {
+  transform: scale(.9);
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.create-input, .checked, .not-checked, .filter-on, .filter-off, button {
+  transition: .3s;
+}
+.app {
+  justify-content: flex-start;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  width: 50px;
+  border-radius: 5px;
+}
+
+.create-button {
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.todo-input, .filter-button {
+  color: rgb(46, 46, 46);
+  margin: 4px 10px;
+}
+
+.todo-index-item, .filter-button, .filters, .checked, .create-todo-form-wrap, .create-todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button, .create-button, .checked, .not-checked {
+  box-shadow: inset 0px 0px 0px 1px #dddddd;
+}
+
+.create-input {
+  width: 390px;
+  color: rgb(126, 126, 126);
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.create-input:focus {
+  box-shadow: inset 0px 0px 0px 1px rgb(206, 206, 206); 
+}
+.create-todo-form-wrap {
+  width: 100%;
+  height: 25vh;
+  justify-content: flex-end;
+}
+
+.todos, .app, .create-todo-form-wrap {
+  flex-direction: column;
+}
+
+.todos {
+  display: flex;
+  justify-content: flex-start;
+}
+.todo-input {
+  width: 400px;
+  height: 50px;
+  box-shadow: inset 0px -1px 0px 0px #e6e6e6;
+}
+
+.checked, .not-checked {
+  color: #00e084;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.checked:hover, .not-checked:hover {
+  cursor: pointer;
+}
+
+.filter-button {
+  margin: 0px 10px;
+}
+
+.checked:active, .not-checked:active {
+  transform: scale(.9);
+}
+
+.filter-on, .filter-off, .delete-completed {
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 14px 5px;
+  height: 30px;
+  padding: 0px 14px;
+  color: white;
+}
+
+.delete-completed {
+  background-color: rgb(243, 60, 105);
+}
+.filter-on {
+  background-color: #00e084;
+}
+.filter-off {
+  color: rgb(77, 77, 77);
+  background-color: white;
+  box-shadow: inset 0px 0px 0px 1px  rgb(77, 77, 77);
+}

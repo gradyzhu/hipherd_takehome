@@ -5,7 +5,8 @@ import configureStore from './store';
 
 document.addEventListener('DOMContentLoaded', () => {
   const root = document.getElementById('root');
-  let store = configureStore({});
+  let preloadedState = {todos: {}};
+  let store = configureStore(preloadedState);
 
   ReactDOM.render(<Root store={store}/>, root);
 });
