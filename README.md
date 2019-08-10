@@ -2,6 +2,18 @@
 
 ## [Live Demo](https://sodot-backwards.herokuapp.com)
 
+### Installation
+
+`bundle install`
+
+`npm install`
+
+### Start Server
+
+`rails server`
+
+Go to: localhost:3000
+
 ### Technologies
 
 * React.js
